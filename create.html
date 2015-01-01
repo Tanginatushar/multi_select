@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Multi Selection</title>
+</head>
+<body>
+<form action ="add.php"method="post">
+    <h3>Multi Selection: </h3></br>
+    ID :<input type="number"name="ID"size="30"></br>
+    First Name:<input type="text"name="firstName"size="30"></br>
+
+    Hobby: </br>
+    <input type="checkbox" name="hobby_photography" value="photography"/>Photography</br>
+    <input type="checkbox" name="hobby_travelling" value="travelling"/>Travelling</br>
+    <input type="checkbox" name="hobby_reading" value="reading"/>Reading</br>
+    <input type="checkbox" name="hobby_others" value="others"/>Others</br></br>
+    </br>
+
+    favourite Food: </br>
+    <input type="checkbox" name="favouriteFood []"value="Continantal" /> Continental
+    <input type="checkbox" name="favouriteFood []"value="Thai" /> Thai
+    <input type="checkbox" name="favouriteFood []"value="Mexican" /> Mexican
+    <input type="checkbox" name="favouriteFood []"value="Others" /> Others
+
+    </br>
+    </br>
+    Preferred Job Location :</br>
+    <select name="cities[]" multiple="multiple">
+
+        <option value="Dhaka">Dhaka</option>
+        <option value="chittagong">Chittagong</option>
+        <option value="rajshahi">Rajshahi</option>
+        <option value="sylhet">Sylhet</option>
+        <option value="barishal">Barishal</option>
+        <option value="khulna">Khulna</option>
+        <option value="rangpur">Rangpur</option>
+        <option value="pabna">Pabna</option>
+        <option value="comilla">Comilla</option>
+        <option value="narayangong">Narayangong</option>
+        <option value="cox'sBazar">Cox's Bazar</option>
+        <option value="habigong">Habigong</option>
+        <option value="feni">Feni</option>
+        <option value="jessor">Jessor</option>
+        <option value="nator">Nator</option>
+        <option value="bBaria">B. Baria</option>
+        <option value="moulavibazar">Moulavibazar</option>
+        <option value="bagerhat">Bagerhat<option>
+        <option value="sirajgong">Sirajgong</option>
+        <option value="narshingdi">Narshingdi</option>
+        <option value="bhola">Bhola</option>
+        <option value="panchgor">Panchgor</option>
+
+
+        <option value="'others">Others</option>
+
+
+    </select></br> </br>
+
+    <input type="submit"value="Submit">
+
+</form>
+
+</body>
+</html>
